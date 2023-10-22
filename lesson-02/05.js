@@ -5,8 +5,8 @@ let passport = {
     surname: "Petrov",
 };
 
-const passportCopy = {...passport}
+let passportCopy = {...passport}
 passportCopy.name = 'Ivan'
 
-console.log(passportCopy);
 console.log(passport);
+console.log(passportCopy);
