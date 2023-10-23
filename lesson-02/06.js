@@ -1,4 +1,3 @@
-// code
 
 let passportWithAddress = {
     name: "Petr",
@@ -10,5 +9,5 @@ let passportWithAddress = {
 };
 const passportWithAddressCopy = {...passportWithAddress, address: { ...passportWithAddress.address, city:'Bobruisk'}}
 
-console.log(passportWithAddress);
-console.log(passportWithAddressCopy);
+console.log(passportWithAddress.address.city);
+console.log(passportWithAddressCopy.address.city);
