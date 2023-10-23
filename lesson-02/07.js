@@ -1,4 +1,3 @@
-// code
 let passportMarried = {
     name: "Petr",
     surname: "Petrov",
