@@ -1,12 +1,14 @@
 // code
 
-let passport = {
+let passportWithAddress = {
     name: "Petr",
     surname: "Petrov",
+    address: {
+        country: "USA",
+        city: "LA"
+    }
 };
+const passportWithAddressCopy = {...passportWithAddress, address: { ...passportWithAddress.address, city:'Bobruisk'}}
 
-
-const passportCopy = {...passport}
-passportCopy.name = 'Ivan'
-console.log(passport);
-console.log(passportCopy);
+console.log(passportWithAddress);
+console.log(passportWithAddressCopy);

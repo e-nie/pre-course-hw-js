@@ -1,4 +1,3 @@
-// code
 
 let passport = {
     name: "Petr",
