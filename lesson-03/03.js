@@ -2,7 +2,7 @@ const fruits = ["яблоко", "банан", "апельсин", "манго", 
 
 
 const removeFruits = (arr) => {
-   return arr.slice(1, -2)
+   console.log (arr.slice(1, -2))
 };
 
-console.log(removeFruits(fruits));
+removeFruits(fruits)
