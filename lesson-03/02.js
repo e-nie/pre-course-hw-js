@@ -9,4 +9,4 @@ const findOrange = (arr) => {
     }
 };
 
-console.log(findOrange(words));
+findOrange(words);
