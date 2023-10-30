@@ -5,7 +5,7 @@ function createColorString() {
     const deutscheFlagge = colors.filter(el=> {
         return el === "черный" || el === "красный" || el === "желтый";
     })
-    return deutscheFlagge
+    return deutscheFlagge.join('-')
 }
 
 console.log(createColorString(colors));
