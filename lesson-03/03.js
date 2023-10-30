@@ -3,4 +3,3 @@ const fruits = ["яблоко", "банан", "апельсин", "манго", 
 const newFruits = fruits.slice(1, -2);
 
 console.log(newFruits);
-
